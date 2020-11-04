@@ -50,7 +50,7 @@ class MWin(tk.Tk):
 
 
     def tlevel_datascience(self):
-        dt_sci = TWin("Data science with Python", "400x200+730+540")
+        dt_sci = TWin("Data science with Python", "400x200+730+65")
         tk.Label(dt_sci,
             text="Data science with Python is completely possible! There's tons of modules out there to help you, like 'pandas' and 'madplotlib'. Check them out, these modules will allow you to manipulate data, graph data, and more!", bg=BG, fg=FG,
             wraplength=350, font=Font(size=12)).place(anchor="n", relx=0.5, rely=0.05)
@@ -64,7 +64,7 @@ class MWin(tk.Tk):
             anchor="n", relx=0.7, rely=0.7, relwidth=0.3)
 
     def tlevel_machinelearning(self):
-        mc_learn = TWin("Machine learning with Python", "400x200+730+540")
+        mc_learn = TWin("Machine learning with Python", "400x200+330+300")
         tk.Label(mc_learn, text="Machine learning is very popular in python, lot's of people do it and there's plenty of resources out there to get started doing some machine learning. Here are some links:", bg=BG, fg=FG,
             wraplength=350, font=Font(size=12)).place(anchor="n", relx=0.5, rely=0.05)
         tk.Button(mc_learn, text="Geeks for Geeks", font=Font(size=9),
@@ -88,7 +88,7 @@ class MWin(tk.Tk):
             anchor="n", relx=0.5, rely=0.6, relwidth=0.3)
 
     def tlevel_webdev(self):
-        wd = TWin("Web development with Python", "400x200+730+540")
+        wd = TWin("Web development with Python", "400x200+1130+300")
         tk.Label(wd, text="Web development in Python is super fast, clean, and practical with Django! Django is one of the main modules you can use to do web development with Python!", bg=BG, fg=FG,
             wraplength=350, font=Font(size=12)).place(anchor="n", relx=0.5, rely=0.05)
         tk.Button(wd, text="djangoproject.com", font=Font(size=9),
